@@ -12,8 +12,8 @@ A Fullstack CRUD Blog App with Django User Authentication (Token Authentication)
 ## All Blogs Page
 <img src = "https://github.com/Yash-Raj-96/Blog-App/blob/main/Images/image1.png?raw=true">
 
-## Blog Page
-<img src = "https://github.com/YashMarmat/Pages-App-django/blob/master/templates/content%20page.png">
+## Update Blog Page
+<img src = "https://github.com/Yash-Raj-96/Blog-App/blob/main/Images/image5.png?raw=true">
 
 # Setting up the Application
 
