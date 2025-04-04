@@ -27,7 +27,7 @@ SECRET_KEY = '(y5+f%9ebbh-f%u#2b5z6guanw0ba@h@2xk_cyxz&8y3&n(zt#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["blog-app-7oq1.onrender.com"]
 
 
 # Application definition
