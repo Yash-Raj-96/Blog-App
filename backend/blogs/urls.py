@@ -1,8 +1,7 @@
-from django.contrib import admin
-from django.urls import path, include
+from rest_framework import routers
+from .api import BlogViewSet
 
-urlpatterns = [
-    path('api/', include('blogs.urls')),  # 👈 This ensures proper routing
-    path('api/', include('accounts.urls')),
-    path('admin/', admin.site.urls),
-]
+router = routers.DefaultRouter()
+router.register('api/blogs', BlogViewSet, 'blogs')
+
+urlpatterns = router.urls
